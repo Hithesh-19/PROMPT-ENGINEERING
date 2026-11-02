@@ -58,12 +58,13 @@ Step 7: Finalize and Export
 
 
 # Output
+&nbsp;
 
 ### Abstract
 
 Generative Artificial Intelligence (Generative AI) is a branch of artificial intelligence that learns patterns from data and uses those patterns to create new content, such as text, images, audio, video, computer code and structured data. Large Language Models (LLMs) are a major class of generative models designed to understand and generate language. This report introduces the foundations of AI and machine learning, explains the major generative model families—Generative Adversarial Networks (GANs), Variational Autoencoders (VAEs), diffusion models and transformers—and describes how modern LLMs are trained and used. It also examines the impact of scaling model parameters, training data and computation, including the importance of balancing these resources. Applications, benefits, limitations, ethical concerns and future directions are discussed in clear language for undergraduate students. The report concludes that Generative AI is a powerful assistive technology, but its outputs require human evaluation, responsible use and suitable safeguards.
 
-
+&nbsp;
 
 ### Table of Contents
 
@@ -92,7 +93,7 @@ Generative Artificial Intelligence (Generative AI) is a branch of artificial int
 12. Conclusion
 
 13. References
-
+&nbsp;
 
 
 ### 1. Introduction and Objectives
@@ -113,7 +114,7 @@ Identify practical applications and important limitations of Generative AI.
 
 Explain how model size, training data and computation affect LLM capability, cost and efficiency.
 
-
+&nbsp;
 
 ### 2. Foundations: AI, Machine Learning and Deep Learning
 
@@ -136,6 +137,7 @@ Deep Learning is a part of ML that uses neural networks with multiple processing
 
 AI is the broadest field. ML is one approach within AI, and deep learning is a family of ML methods based on multi-layer neural networks. Generative AI is a set of methods that can be implemented using deep learning and other probabilistic techniques. Data science overlaps with AI and ML but also includes data collection, analysis, visualization and decision support.
 
+&nbsp;
 ### 3. Generative AI: Meaning and Working Principle
 <img width="1174" height="660" alt="image" src="https://github.com/user-attachments/assets/c4e2b240-89dc-4d31-b014-7541c2c688c4" />
 
@@ -161,6 +163,7 @@ Give the trained model an input or prompt and generate an output.
 Review, filter or verify the output before using it.
 
 Analogy: learning to write. A student reads many examples, notices grammar and style patterns, and later writes a new paragraph. A generative model performs a mathematical version of pattern learning; it does not learn exactly as a human does.
+&nbsp;
 
 ### 4. Major Generative AI Model Architectures
 <img width="800" height="400" alt="image" src="https://github.com/user-attachments/assets/3082966a-c17d-47f6-98a1-a2eb376fbc9f" />
@@ -228,6 +231,7 @@ Attention mixes information across tokens
 LLMs, translation, multimodal models
 
 High compute and memory needs at scale
+&nbsp;
 
 ### 5. Large Language Models (LLMs)
 <img width="430" height="465" alt="image" src="https://github.com/user-attachments/assets/85452365-3401-457f-b984-8f64394e765b" />
@@ -245,6 +249,7 @@ Many generative LLMs are trained to predict the next token from the tokens that 
 5.3 GPT and BERT
 
 GPT-style models are generally decoder-only transformers trained for autoregressive next-token prediction, making them suitable for generating text. BERT is an encoder-only transformer trained with masked-language objectives; it is widely associated with understanding and representation tasks rather than free-form autoregressive generation. Encoder-decoder transformers, such as the original Transformer design, are useful for sequence-to-sequence tasks such as translation.
+&nbsp;
 
 ### 6. Transformer Architecture and LLM Families
 
@@ -281,6 +286,7 @@ The output layer produces a probability distribution for the next token.
 A decoding strategy selects a token; it is appended to the sequence.
 
 The process repeats until a stopping condition is reached.
+&nbsp;
 
 ### 7. Training Process and Data Requirements
 
@@ -295,6 +301,7 @@ After pre-training, a model may be fine-tuned on curated examples for particular
 7.3 Evaluation
 
 Evaluation may include language modelling loss, benchmark tests, human review, task-specific accuracy, robustness, safety tests, bias assessments and red-team exercises. No single benchmark captures all real-world performance.
+&nbsp;
 
 ### 8. Applications of Generative AI
 <img width="800" height="400" alt="image" src="https://github.com/user-attachments/assets/6d3d7aee-44f1-4fc4-ad1f-f574e84c8ec9" />
@@ -348,6 +355,7 @@ Speech-to-text, text simplification, translation
 Convert written instructions into simpler language
 
 Applications should be selected according to risk. A generated study outline is relatively low risk; an AI-generated medical recommendation, legal conclusion or safety-critical engineering decision requires qualified human oversight.
+&nbsp;
 
 ### 9. Impact of Scaling in LLMs
 
@@ -414,6 +422,7 @@ Serves more users or requests
 Infrastructure cost, latency and reliability challenges
 
 Important point: 'bigger is better' is an incomplete rule. Effective scaling is about allocating a limited budget among model capacity, data, compute and deployment requirements.
+&nbsp;
 
 ### 10. Limitations, Risks and Ethical Considerations
 
@@ -450,6 +459,7 @@ Environmental and economic cost
 Large-scale training and inference consume electricity, hardware and water for cooling in some facilities; costs and impacts should be considered.
 
 Responsible-use checklist: verify factual claims; protect private data; disclose AI assistance when required; check for bias; respect copyright and licensing; keep a human accountable for consequential decisions; and follow institutional and organizational rules.
+&nbsp;
 
 ### 11. Future Trends
 <img width="700" height="465" alt="image" src="https://github.com/user-attachments/assets/221c3204-9f23-4f04-a34a-d28d3093a37e" />
@@ -469,10 +479,12 @@ Domain-specific models for education, science, engineering, healthcare and other
 Greater attention to data provenance, licensing, energy efficiency and governance.
 
 These are active development areas rather than guaranteed outcomes. Their value will depend on technical progress, cost, regulation and responsible deployment.
+&nbsp;
 
 ### 12. Conclusion
 
 Generative AI represents a major development in artificial intelligence because it can create new text, images, audio, video and code from patterns learned during training. GANs, VAEs and diffusion models illustrate different approaches to generation, while transformers provide the foundation for many modern LLMs. LLMs learn token relationships from large datasets and generate language through repeated next-token prediction. Scaling parameters, data and computation can improve capability, but the resources must be balanced and the resulting systems still have limitations. Hallucinations, bias, privacy, security, copyright and environmental impact require careful attention. The most effective approach is to use Generative AI as a powerful assistant while keeping human judgment, verification and accountability at the centre.
+&nbsp;
 
 # Result
 Thus, Comprehensive Report on the Fundamentals of Generative AI and Large Language Models (LLMs) is given.
